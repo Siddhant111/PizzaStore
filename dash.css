@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#Navbar{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+
+.add-to-cart {
+    text-decoration: none;
+    color: white !important;
+    font-weight: bold;
+    width: 100%;
+    background-color:orange;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 100px;
+}
+
+
+.cta{
+    background-color: red;
+    margin: 0;
+    font-weight: bold;
+        
+}
+
+#cartno{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+a:hover{
+    color: black;
+}
+
+.navbar-brand{
+    color: green;
+    font-weight: bold;
+}
+
+.carousel img {
+    max-height: 670px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section img{
+    border-radius: 20px;
+}
+
+#content{
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    
+}
+
+.card{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        position: relative;
+}
+.card img{
+    height: 220px;
+    height: auto;
+    display: block;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+.card-body{
+    text-align: center;
+    margin: none;
+}
+
+.card-title{
+    margin-bottom: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+
+.cart{
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer{
+    background:darkgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+}
+footer a{
+    color: yellow;
+}
+
+
+#heading{
+    filter: brightness(200%);
+    margin:  auto;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 180px;
+    filter: blur(0px) !important;
+}
+
+
+.abimage{
+    background:url("a1.png") ;
+    background-size: cover;
+    width: 100%;
+    filter: brightness(100%);
+    height: 350px;
+    
+   
+}
+
+.cartimage{
+    background:url("a1.png") ;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    filter: blur(0.2px);
+}
+
+#about p{
+    font-weight: bold;
+}
+
+#about h3{
+    font-weight: bold;
+}
+
+.ab{
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+
+
+
+.card:hover .cart1,
+.card:hover .cart2,
+.card:hover .cart3,
+.card:hover .cart4,
+.card:hover .cart5,
+.card:hover .cart6,
+.card:hover .cart7,
+.card:hover .cart8,
+.card:hover .cart9,
+.card:hover .cart10,
+.card:hover .cart11,
+.card:hover .cart12{
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.products-container{
+    max-width: 800px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    
+}
+
+.product-header{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    border-bottom: 4px red solid ;
+    margin: 0 auto;
+
+}
+
+.product-title{
+    width: 45%;
+}
+
+.cprice{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.quantity{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.product img{
+    max-width: 800px;
+    height: 150px;
+}
+
+
+
+.cartname{
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-right: 50px;
+    
+    margin-bottom: 30px;
+}
+
+.cartprice{
+    margin: auto;
+    
+}
+
+.cartquantity{
+    margin: auto;
+}
+
+.carttotal{
+    margin:auto;
+    margin-left: 100px;
+}
+
+.pro{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid red;
+}
+
+ion-icon{
+    background-color:gray;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+.Totalamount {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.totalmoney{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.totaltitle{
+    width: 30%;
+    padding: 10px 0px;
+    justify-content: flex-start;
+}
+
+.paybtn{
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.quan{
+    box-sizing: border-box;
+    width: 40px;
+}
+
+#cartnumber{
+   margin-left: 30px; 
+}

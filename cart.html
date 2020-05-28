@@ -1,0 +1,91 @@
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="dash.css">
+        <title>CRAZYPIZZA</title>
+    </head>
+    <body>
+        <div id="Navbar">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top" id="ftco-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">CRAZYPIZZA</a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="oi oi-menu"></span> Menu
+                    </button>
+            
+                    <div class="navbar-collapse collapse" id="ftco-nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active px-2"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item active px-2"><a href="about.html" class="nav-link">About</a></li>
+                                           
+                            
+                            <li  class="nav-item cta active px-2"><a id="cartno" href="cart.html" class="nav-link">Cart | <span id="total_count">0</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    <div class="cartimage">
+        <h1 id="heading">My Cart</h1>
+    </div>
+
+
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="cprice">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+
+        <div class="products">
+
+        </div>
+        
+        <button type="button" class="btn btn-primary paybtn" data-toggle="modal" data-target="#exampleModalCenter">
+            Proceed to Payment
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Your Order has Been Placed</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Thank You for Shopping with US!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="index.html" class="btn btn-primary" >Continue Shopping</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    
+
+    <footer>
+        Crafted with &hearts; in Pune by <a href="#sid">Siddhant</a>
+    </footer>
+
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/scrollreveal.min.js"></script>
+
+    <script src="script.js"></script>
+    </body>
+
+    </html>
